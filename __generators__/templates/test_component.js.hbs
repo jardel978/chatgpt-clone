@@ -1,0 +1,15 @@
+/// <reference types="cypress" />
+
+import { {{ pascalCase name }} } from "../../../src/components/{{ pascalCase name }}/index"
+
+describe("Testing component {{ pascalCase name }}", () => {
+  it("Deve renderizar o componente", () => {
+    cy.mount(<{{ pascalCase name }} />)
+  })
+
+  it("", () => {
+    cy.get("p").should("contains.text", "ExampleComponent")
+  })
+
+  // Adicione mais casos de teste conforme necessário
+})
