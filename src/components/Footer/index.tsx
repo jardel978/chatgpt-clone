@@ -10,7 +10,7 @@ export const Footer = (props: FooterProps) => {
   return (
     <footer
       className={`
-      border-tgray-600 w-full border-t p-2 
+      w-full border-t border-t-gray-600 p-2 
     `}
     >
       <div className={`m-auto max-w-4xl`}>

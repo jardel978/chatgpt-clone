@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable tailwindcss/no-custom-classname */
 import { BsRobot } from "react-icons/bs"
 
 export const ChatMessageLoading = () => {

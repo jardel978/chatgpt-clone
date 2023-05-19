@@ -18,7 +18,7 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    // "plugin:tailwindcss/recommended",
+    "plugin:tailwindcss/recommended",
     "plugin:css/standard",
     "plugin:cypress/recommended",
     "prettier"
@@ -33,7 +33,7 @@
     "react",
     "@typescript-eslint",
     "react-hooks",
-    // "tailwindcss",
+    "tailwindcss",
     "css",
     "prettier",
     "eslint-plugin-import-helpers",

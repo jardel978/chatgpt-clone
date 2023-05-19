@@ -1,3 +1,4 @@
+/* eslint-disable tailwindcss/no-custom-classname */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable unused-imports/no-unused-vars */
 /* eslint-disable no-unused-vars */
@@ -45,7 +46,7 @@ export const SidebarChatButton = (props: SidebarChatButtonProps) => {
   return (
     <div
       className={`
-      hover:bg-gray-599/12 flex cursor-pointer items-center rounded-md p-3
+      hover:bg-gray-500/12 flex cursor-pointer items-center rounded-md p-3
       text-sm 
       ${props.active ? "bg-gray-500/20" : "bg-transparent"}
     `}

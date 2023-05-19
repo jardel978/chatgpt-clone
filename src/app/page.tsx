@@ -1,3 +1,5 @@
+/* eslint-disable tailwindcss/classnames-order */
+/* eslint-disable tailwindcss/no-custom-classname */
 "use client"
 // por padrão o next13 é server-side, esse 'use client' no inicio indica que ele deve ser client-side
 import { useCallback, useEffect, useState } from "react"

@@ -17,7 +17,7 @@ export const Sidebar = (props: SidebarProps) => {
   return (
     <section
       className={`
-      fixed bottom-0 left-0 top-0 text-white
+      fixed inset-y-0 left-0 text-white
       ${props.open ? "w-screen bg-gray-600/75" : "w-0"}
       md:static md:w-64 
     `}
