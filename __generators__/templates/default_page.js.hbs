@@ -1,5 +1,9 @@
-export default function Home() {
+export default function {{ pascalCase name }}Page() {
   return (
-    <div>Página {{ pascalCase name }}</div>
+    <main className={`
+      flex min-h-screen bg-gpt-gray
+    `}>
+      Página {{ pascalCase name }}Page
+    </main>
   )
 }
